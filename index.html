@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--========== BOX ICONS ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+
+    <!--========== SWIPER CSS ==========-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Ukraine</title>
+  </head>
+  <body>
+    <!--========== HEADER ==========-->
+    <header class="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">Love Ukraine</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Explore</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Destinations</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Hotels</a></li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--========== MAIN ==========-->
+    <main class="main">
+      <div class="swiper-container gallery-top">
+        <div class="swiper-wrapper">
+          <!--========== city 1 ==========-->
+          <section class="city swiper-slide">
+            <img src="assets/img/Kyiv.jpg" alt="" class="city__bg" />
+
+            <div class="city__container bd-container">
+              <div class="city__data">
+                <h2 class="city__subtitle">city</h2>
+                <h1 class="city__title">Kyiv</h1>
+                <p class="city__description">
+                  Kyiv (Ukrainian: Київ) or Kiev is the capital and most populous city of Ukraine. It is in
+                  north-central Ukraine along the Dnieper River. Its population in April 2021 was 2,888,470 (though
+                  higher estimated numbers have been cited in the press), making Kyiv the seventh-most populous city in
+                  Europe.
+                </p>
+                <a href="#" class="city__button">Explore <i class="bx bx-right-arrow-alt city__button-icon"></i></a>
+              </div>
+
+              <div class="city__video">
+                <div class="city__video-content">
+                  <i class="bx bx-play-circle city__video-icon"></i>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== city 2 ==========-->
+          <section class="city swiper-slide">
+            <img src="assets/img/Lviv.jpg" alt="" class="city__bg" />
+
+            <div class="city__container bd-container">
+              <div class="city__data">
+                <h2 class="city__subtitle">city</h2>
+                <h1 class="city__title">Lviv</h1>
+                <p class="city__description">
+                  Lviv (Ukrainian: Львів) is the largest city in western Ukraine and the seventh-largest city in the
+                  country overall, with a population of 720,383 (est.2021). Lviv is one of the main cultural centres of
+                  Ukraine.
+                </p>
+                <a href="#" class="city__button">Explore <i class="bx bx-right-arrow-alt city__button-icon"></i></a>
+              </div>
+
+              <div class="city__video">
+                <div class="city__video-content">
+                  <i class="bx bx-play-circle city__video-icon"></i>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== city 3 ==========-->
+          <section class="city swiper-slide">
+            <img src="assets/img/Odessa.jpg" alt="" class="city__bg" />
+
+            <div class="city__container bd-container">
+              <div class="city__data">
+                <h2 class="city__subtitle">city</h2>
+                <h1 class="city__title">Odessa</h1>
+                <p class="city__description">
+                  Odessa or Odesa (Ukrainian: Оде́са) is the third most populous city of Ukraine and a major tourism
+                  center, seaport and transport hub located on the northwestern shore of the Black Sea.
+                </p>
+                <a href="#" class="city__button">Explore <i class="bx bx-right-arrow-alt city__button-icon"></i></a>
+              </div>
+
+              <div class="city__video">
+                <div class="city__video-content">
+                  <i class="bx bx-play-circle city__video-icon"></i>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== city POPUP ==========-->
+          <div class="city__popup" id="popup">
+            <div>
+              <div class="city__popup-close" id="popup-close">
+                <i class="bx bx-x"></i>
+              </div>
+
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/D7SlK16o82o?controls=0"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--========== CONTROLS ==========-->
+      <div class="controls gallery-thumbs">
+        <div class="controls__container swiper-wrapper">
+          <img src="assets/img/small-Kyiv.jpg" alt="" class="controls__img swiper-slide" />
+          <img src="assets/img/small-Lviv.jpg" alt="" class="controls__img swiper-slide" />
+          <img src="assets/img/small-Odessa.jpg" alt="" class="controls__img swiper-slide" />
+        </div>
+      </div>
+    </main>
+
+    <!--========== GSAP ==========-->
+    <script src="assets/js/gsap.min.js"></script>
+
+    <!--========== SWIPER JS ==========-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
